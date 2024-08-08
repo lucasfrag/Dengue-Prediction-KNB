@@ -1,0 +1,21 @@
+﻿paciente;febre ;dor_muscular;falta_apetite;manchas_vermelhas;dengue
+1;38.6;sim;sim;sim;sim
+2;36.4;nao;nao;nao;nao
+3;37.5;sim;sim;nao;sim
+4;38.9;sim;sim;sim;sim
+5;39.3;sim;sim;sim;sim
+6;39.6;sim;sim;sim;sim
+7;38.9;sim;nao;sim;sim
+8;38.9;sim;sim;sim;sim
+9;38.7;sim;sim;nao;nao
+10;36.5;nao;sim;nao;nao
+11;37.9;sim;sim;nao;sim
+12;35.8;nao;nao;nao;nao
+13;37.5;sim;nao;nao;nao
+14;38.6;sim;nao;sim;sim
+15;38.7;nao;sim;sim;sim
+16;38.4;nao;nao;nao;nao
+17;38.4;sim;sim;nao;sim
+18;35.6;nao;nao;nao;nao
+19;35.2;nao;sim;nao;nao
+20;35.7;nao;nao;nao;nao
