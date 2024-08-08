@@ -1,4 +1,4 @@
-# Projeto Integrador de I.A
+# Projeto Integrado de I.A
 
 ## 📚 Sobre o projeto
 O seguinte repositório foi criado com o objetivo de apresentar uma solução para o Projeto Integrado proposto na Pós Graduação de Inteligência Artificial da UNA.
