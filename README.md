@@ -1,7 +1,7 @@
 # Previsão de casos de dengue com Inteligência Artificial
 
 ## 📚 Sobre o projeto
-O seguinte repositório foi criado com o objetivo de apresentar uma solução para o Projeto Integrado proposto na Pós Graduação de Inteligência Artificial da UNA.
+O seguinte repositório foi criado com o objetivo de apresentar uma solução para a previsão de casos de dengue usando o algoritmo de classificação KNeighborsClassifier.
 
 Este projeto aplica o algoritmo de classificação <b>KNeighborsClassifier</b> para prever se um paciente está com dengue, com base em sintomas como febre, dor muscular, falta de apetite e manchas vermelhas.
 
