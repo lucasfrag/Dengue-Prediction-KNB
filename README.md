@@ -1,4 +1,4 @@
-# Projeto Integrado de I.A
+# Previsão de casos de dengue com Inteligência Artificial
 
 ## 📚 Sobre o projeto
 O seguinte repositório foi criado com o objetivo de apresentar uma solução para o Projeto Integrado proposto na Pós Graduação de Inteligência Artificial da UNA.
