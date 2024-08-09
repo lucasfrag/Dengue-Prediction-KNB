@@ -3,7 +3,8 @@
 ## 📚 Sobre o projeto
 O seguinte repositório foi criado com o objetivo de apresentar uma solução para o Projeto Integrado proposto na Pós Graduação de Inteligência Artificial da UNA.
 
-O projeto trata-se de um caso de uso para aplicar o modelo <b>KNeightborsClassifier</b> no problema de diagnóstico da dengue.
+Este projeto aplica o algoritmo de classificação <b>KNeighborsClassifier</b> para prever se um paciente está com dengue, com base em sintomas como febre, dor muscular, falta de apetite e manchas vermelhas.
+
 
 ## O problema... 🤔
 <i>O texto abaixo trata-se do contexto apresentado para a prática do Projeto Integrado.</i> 💬 
@@ -18,28 +19,85 @@ Apresente a matriz de confusão e a acurácia do modelo.
 
 
 ## ... A SOLUÇÃO! 😍
-O código completo da solução encontra-se no arquivo <i>main.py</i> e pode ser executado com o comando <code>py main.py</code>.
 
-### Resultado obtido
 
-A matriz de confusão mostrou que o modelo fez 4 previsões no total, das quais 3 foram corretas (2 previsões corretas de "não dengue" e 1 previsão correta de "dengue").
-A acurácia foi de 0.75, o que significa que 75% das previsões foram corretas.
+### 1. Transformação dos Dados
+
+Os valores nas colunas `dor_muscular`, `falta_apetite`, `manchas_vermelhas` e `dengue` são categóricos, com valores 'sim' e 'nao'. Para utilizar esses dados em um modelo de machine learning, foi necessário transformar esses valores em binários:
+
+- `'sim'` foi substituído por `1`.
+- `'nao'` foi substituído por `0`.
+
+### 2. Divisão dos Dados
+
+Após a transformação, os dados foram divididos em conjuntos de treinamento e teste. O conjunto de treinamento é utilizado para treinar o modelo, enquanto o conjunto de teste é usado para avaliar seu desempenho.
+
+### 3. Treinamento do Modelo
+
+O modelo `KNeighborsClassifier` foi treinado usando os dados de treinamento. Este algoritmo classifica novos exemplos com base nas classes mais frequentes entre os vizinhos mais próximos.
+
+### 4. Avaliação do Modelo
+
+O modelo foi avaliado usando a matriz de confusão e a acurácia.
+
+#### Matriz de Confusão
+
+A matriz de confusão gerada foi:
+
+<table>
+  <tr>
+    <th></th>
+    <th>Previsto: Não Dengue</th>
+    <th>Previsto: Dengue</th>
+  </tr>
+  <tr>
+    <td>Real: Não Dengue</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Real: Dengue</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+</table>
+
+
+- **True Negatives (2)**: Pacientes que realmente não tinham dengue e foram corretamente classificados como "não dengue".
+- **False Positives (1)**: Paciente que não tinha dengue, mas foi incorretamente classificado como tendo dengue.
+- **False Negatives (0)**: Pacientes que tinham dengue, mas foram incorretamente classificados como "não dengue".
+- **True Positives (1)**: Pacientes que realmente tinham dengue e foram corretamente classificados como "dengue".
+
+#### Acurácia
+
+A acurácia do modelo foi de **75%**. Ela é calculada como a proporção de previsões corretas (True Positives + True Negatives) sobre o total de previsões:
+
+<code>Acurária = ( 2 + 1 ) / 4 = 0.75</code>
+
+Isso significa que o modelo acertou 75% das previsões no conjunto de teste.
+
 
 
 
 ## Capturas de tela 📸
 
 <b>1. Carregar a base de dados seleciona e explorar os dados</b><br>
-<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_01.jpg" style="height: 250px">
+<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_01.jpg" style="width: 800px">
 
 <b>2. Transformar os valores da base de dados</b><br>
-<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_02.jpg" style="height: 250px">
+<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_02.jpg" style="width: 800px">
 
 <b>3. Mineração de dados</b><br>
-<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_03.jpg" style="height: 250px">
+<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_03.jpg" style="width: 800px">
 
 
 ## Construído com...
 - Python
 - Pandas
 - scikit-learn
+
+## Conclusão
+Este projeto demonstra como aplicar o modelo KNeighborsClassifier para diagnosticar dengue com base em sintomas registrados em uma base de dados. A acurácia obtida foi de 75%, o que indica um desempenho razoável para este conjunto de dados simples.
+
+### Desenvolvido por [Lucas Fraga](https://github.com/lucasfrag)
+
