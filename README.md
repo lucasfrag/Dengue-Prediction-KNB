@@ -30,13 +30,13 @@ A acurácia foi de 0.75, o que significa que 75% das previsões foram corretas.
 ## Capturas de tela 📸
 
 <b>1. Carregar a base de dados seleciona e explorar os dados</b><br>
-<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_01.jpg" style="height: 150px">
+<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_01.jpg" style="height: 250px">
 
 <b>2. Transformar os valores da base de dados</b><br>
-<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_02.jpg" style="height: 150px">
+<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_02.jpg" style="height: 250px">
 
 <b>3. Mineração de dados</b><br>
-<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_03.jpg" style="height: 150px">
+<img src="https://github.com/lucasfrag/UNA-PI-IA/blob/main/Screenshots/Screenshot_03.jpg" style="height: 250px">
 
 
 ## Construído com...
