@@ -1,9 +1,23 @@
 # Previsão de casos de dengue com Inteligência Artificial
 
-## 📚 Sobre o projeto
-O seguinte repositório foi criado com o objetivo de apresentar uma solução para a previsão de casos de dengue usando o algoritmo de classificação KNeighborsClassifier.
+Durante minha Pós-Graduação em Inteligência Artificial, fui desafiado a desenvolver uma solução para prever casos de dengue utilizando o algoritmo KNeighborsClassifier. O projeto parecia complicado no início, mas com muita pesquisa e dedicação, consegui implementar uma solução eficaz!
 
-Este projeto aplica o algoritmo de classificação <b>KNeighborsClassifier</b> para prever se um paciente está com dengue, com base em sintomas como febre, dor muscular, falta de apetite e manchas vermelhas.
+### 💻 O que foi feito?
+
+- Carreguei e transformei dados categóricos de uma base de casos de dengue.
+- Apliquei técnicas de Machine Learning com Python, Pandas e scikit-learn.
+- Treinei um modelo de classificação utilizando KNeighborsClassifier.
+- Avaliei o desempenho com matriz de confusão e acurácia.
+
+
+
+### 📚 Por que isso importa? 
+
+A previsão de doenças como a dengue é crucial para a saúde pública, e aplicar Machine Learning nessa área pode trazer insights poderosos e ajudar na tomada de decisões.
+
+
+🔗 Confira o artigo completo no [Medium](https://medium.com/@lucasfrag/previsão-de-casos-de-dengue-com-inteligência-artificial-58a146c445e6)
+
 
 
 ## O problema... 🤔
