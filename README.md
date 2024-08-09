@@ -1,4 +1,4 @@
-# Previsão de casos de dengue com Inteligência Artificial
+# Previsão de casos de dengue com IA
 
 Durante minha Pós-Graduação em Inteligência Artificial, fui desafiado a desenvolver uma solução para prever casos de dengue utilizando o algoritmo KNeighborsClassifier. O projeto parecia complicado no início, mas com muita pesquisa e dedicação, consegui implementar uma solução eficaz!
 
