@@ -86,7 +86,7 @@ A matriz de confusão gerada foi:
 
 A acurácia do modelo foi de **75%**. Ela é calculada como a proporção de previsões corretas (True Positives + True Negatives) sobre o total de previsões:
 
-<code>Acurária = ( 2 + 1 ) / 4 = 0.75</code>
+<code>Acurácia = ( 2 + 1 ) / 4 = 0.75</code>
 
 Isso significa que o modelo acertou 75% das previsões no conjunto de teste.
 
